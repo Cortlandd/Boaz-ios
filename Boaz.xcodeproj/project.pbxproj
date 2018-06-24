@@ -26,6 +26,7 @@
 		E55D3F0F20E03EAD00ACBF23 /* ChessBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F0E20E03EAD00ACBF23 /* ChessBoard.swift */; };
 		E55D3F1120E03EF400ACBF23 /* ExtensionUIChessPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F1020E03EF400ACBF23 /* ExtensionUIChessPiece.swift */; };
 		E55D3F1320E03FDA00ACBF23 /* BoardIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F1220E03FDA00ACBF23 /* BoardIndex.swift */; };
+		E55D3F1520E0401700ACBF23 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F1420E0401700ACBF23 /* StartScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E55D3F0E20E03EAD00ACBF23 /* ChessBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoard.swift; sourceTree = "<group>"; };
 		E55D3F1020E03EF400ACBF23 /* ExtensionUIChessPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIChessPiece.swift; sourceTree = "<group>"; };
 		E55D3F1220E03FDA00ACBF23 /* BoardIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardIndex.swift; sourceTree = "<group>"; };
+		E55D3F1420E0401700ACBF23 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				E55D3F0E20E03EAD00ACBF23 /* ChessBoard.swift */,
 				E55D3F1020E03EF400ACBF23 /* ExtensionUIChessPiece.swift */,
 				E55D3F1220E03FDA00ACBF23 /* BoardIndex.swift */,
+				E55D3F1420E0401700ACBF23 /* StartScreen.swift */,
 				E55D3ED220E0332200ACBF23 /* Main.storyboard */,
 				E55D3ED520E0332200ACBF23 /* Assets.xcassets */,
 				E55D3ED720E0332200ACBF23 /* LaunchScreen.storyboard */,
@@ -297,6 +300,7 @@
 			files = (
 				E55D3F0720E03C8D00ACBF23 /* Rook.swift in Sources */,
 				E55D3F0F20E03EAD00ACBF23 /* ChessBoard.swift in Sources */,
+				E55D3F1520E0401700ACBF23 /* StartScreen.swift in Sources */,
 				E55D3F0320E03C6C00ACBF23 /* Queen.swift in Sources */,
 				E55D3F0B20E03E2A00ACBF23 /* Dummy.swift in Sources */,
 				E55D3ED120E0332200ACBF23 /* ViewController.swift in Sources */,
