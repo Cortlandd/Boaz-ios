@@ -14,6 +14,14 @@
 		E55D3ED920E0332200ACBF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55D3ED720E0332200ACBF23 /* LaunchScreen.storyboard */; };
 		E55D3EE420E0332200ACBF23 /* BoazTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3EE320E0332200ACBF23 /* BoazTests.swift */; };
 		E55D3EEF20E0332300ACBF23 /* BoazUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3EEE20E0332300ACBF23 /* BoazUITests.swift */; };
+		E55D3EFD20E035C100ACBF23 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3EFC20E035C100ACBF23 /* Piece.swift */; };
+		E55D3EFF20E03A9700ACBF23 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3EFE20E03A9700ACBF23 /* Pawn.swift */; };
+		E55D3F0120E03C5B00ACBF23 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F0020E03C5B00ACBF23 /* Knight.swift */; };
+		E55D3F0320E03C6C00ACBF23 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F0220E03C6C00ACBF23 /* Queen.swift */; };
+		E55D3F0520E03C7C00ACBF23 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F0420E03C7C00ACBF23 /* King.swift */; };
+		E55D3F0720E03C8D00ACBF23 /* Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F0620E03C8D00ACBF23 /* Rook.swift */; };
+		E55D3F0920E03D3100ACBF23 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F0820E03D3100ACBF23 /* Bishop.swift */; };
+		E55D3F0B20E03E2A00ACBF23 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D3F0A20E03E2A00ACBF23 /* Dummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		E55D3EEA20E0332200ACBF23 /* BoazUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoazUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55D3EEE20E0332300ACBF23 /* BoazUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoazUITests.swift; sourceTree = "<group>"; };
 		E55D3EF020E0332300ACBF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55D3EFC20E035C100ACBF23 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		E55D3EFE20E03A9700ACBF23 /* Pawn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
+		E55D3F0020E03C5B00ACBF23 /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		E55D3F0220E03C6C00ACBF23 /* Queen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
+		E55D3F0420E03C7C00ACBF23 /* King.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
+		E55D3F0620E03C8D00ACBF23 /* Rook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rook.swift; sourceTree = "<group>"; };
+		E55D3F0820E03D3100ACBF23 /* Bishop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bishop.swift; sourceTree = "<group>"; };
+		E55D3F0A20E03E2A00ACBF23 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,14 @@
 			children = (
 				E55D3ECE20E0332200ACBF23 /* AppDelegate.swift */,
 				E55D3ED020E0332200ACBF23 /* ViewController.swift */,
+				E55D3EFC20E035C100ACBF23 /* Piece.swift */,
+				E55D3EFE20E03A9700ACBF23 /* Pawn.swift */,
+				E55D3F0020E03C5B00ACBF23 /* Knight.swift */,
+				E55D3F0220E03C6C00ACBF23 /* Queen.swift */,
+				E55D3F0420E03C7C00ACBF23 /* King.swift */,
+				E55D3F0620E03C8D00ACBF23 /* Rook.swift */,
+				E55D3F0820E03D3100ACBF23 /* Bishop.swift */,
+				E55D3F0A20E03E2A00ACBF23 /* Dummy.swift */,
 				E55D3ED220E0332200ACBF23 /* Main.storyboard */,
 				E55D3ED520E0332200ACBF23 /* Assets.xcassets */,
 				E55D3ED720E0332200ACBF23 /* LaunchScreen.storyboard */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55D3F0720E03C8D00ACBF23 /* Rook.swift in Sources */,
+				E55D3F0320E03C6C00ACBF23 /* Queen.swift in Sources */,
+				E55D3F0B20E03E2A00ACBF23 /* Dummy.swift in Sources */,
 				E55D3ED120E0332200ACBF23 /* ViewController.swift in Sources */,
 				E55D3ECF20E0332200ACBF23 /* AppDelegate.swift in Sources */,
+				E55D3EFD20E035C100ACBF23 /* Piece.swift in Sources */,
+				E55D3F0920E03D3100ACBF23 /* Bishop.swift in Sources */,
+				E55D3EFF20E03A9700ACBF23 /* Pawn.swift in Sources */,
+				E55D3F0120E03C5B00ACBF23 /* Knight.swift in Sources */,
+				E55D3F0520E03C7C00ACBF23 /* King.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
